@@ -1,0 +1,29 @@
+# ── Assignment-unrelated folders ─────────────────────────────────────────────
+# Only backend/ and .github/ should be on GitHub
+labs/
+frontend/
+.history/
+.vscode/
+
+# ── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Environment variables (NEVER push secrets!) ───────────────────────────────
+.env
+.env.*
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Build output ─────────────────────────────────────────────────────────────
+dist/
+build/
+
+# ── Temp files ───────────────────────────────────────────────────────────────
+*.tmp
+tempCodeRunnerFile.js
